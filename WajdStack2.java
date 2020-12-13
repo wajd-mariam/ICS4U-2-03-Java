@@ -1,11 +1,11 @@
 /*
 * Copyright (c) 2020
 *
-* The WajdStack1 Class creates a stack to use 
+* The WajdStack2 Class creates a stack to use 
 * by the TryCatchPop.java program, and has different methods to process.
 * 
 * @author  Wajd Mariam
-* @version .0
+* @version 2.0
 * @since   2020/12/09
 */
 
