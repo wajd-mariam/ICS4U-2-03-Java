@@ -2,10 +2,10 @@
 * Copyright (c) 2020
 *
 * The WajdStack1 Class creates a stack to use 
-* by the stack.java program, and has different methods to process.
+* by the TryCatchPop.java program, and has different methods to process.
 * 
 * @author  Wajd Mariam
-* @version 1.0
+* @version .0
 * @since   2020/12/09
 */
 
@@ -21,9 +21,8 @@ public class WajdStack2 {
    * This method add the integer inputted and 
    * returns the Integer that has been added to the stack.
    */
-  public Integer push(int add) {
+  void push(int add) {
     stackArray.add(add);
-    return this.stackArray.get(stackArray.size() - 1);
   }
   
   /**
@@ -40,8 +39,7 @@ public class WajdStack2 {
   }
   
   /**
-   * This method returns the array list before and after popping 
-   * the top integer depending on the user's request.
+   * Returning method.
    */ 
   public String list() {
     String currentCharacters = "";
